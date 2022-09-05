@@ -19,7 +19,6 @@ html body {
 }
 
 body {
-    border: 1px solid red;
     width: fit-content;
     height: fit-content;
 }
@@ -105,7 +104,7 @@ header{
     width: 808px;
     position: absolute;
     left: 50%;
-    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     top: 190px;
 }
 
@@ -136,14 +135,14 @@ header{
     width: 251px;
     margin: 100px auto;
     padding: 10px 25px;
-    -webkit-transform: scale(1);
+    transform: scale(1);
     border: none;
     position: absolute;
     margin: 500px auto;
 }
 
 .contact-us:hover{
-    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     background-color: #978268;
     color: rgb(255, 255, 255);
     transition: 0.5s ease-out;
@@ -187,12 +186,12 @@ header{
 img {
     height: 767px;
     width: 541px;
-    -webkit-transform: scale(1);
+    transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 
 #page2 img:hover {
-    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     transition: 0.3s ease-in-out;
 }
 
@@ -329,7 +328,7 @@ input[type=tel] {
     border-left: none;
     outline: none;
     width: 40%;
-    -webkit-transform: scale(1);
+    transform: scale(1);
     text-align: center;
     margin-top: 0px;
     font-size: 15px;
