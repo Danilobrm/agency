@@ -318,6 +318,7 @@ input[type=tel] {
 
 #select { 
     font-family: Jost;
+    color: white;
     height: 62px;
     border-bottom: none;
     border-top: none;
@@ -335,7 +336,6 @@ input[type=tel] {
 
 #select:hover {
     background-color: rgb(141, 141, 141);
-    color: white;
 }
 
 option {
