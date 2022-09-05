@@ -21,11 +21,8 @@
 
 @media(max-width:800px){
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    
+
     
 
     body .logo { 
@@ -106,12 +103,11 @@
     }
 
 
-
-
-    #page1 #titlePage{
+    #page1 #titlePage{ 
         position: absolute;
         top: 30%;
         transition: 0.3s ease-in-out;
+        width: 100%;
     }
 
     #page1 .title {
@@ -170,7 +166,6 @@
 
 
 
-
     #page2 {
         width: 100%;
         height: 100%;
@@ -180,7 +175,7 @@
     #page2 main {
         display: block; 
         height: 100%;
-        
+        width: 100%;
     }
 
     #page2 .about-our-work {
@@ -188,7 +183,6 @@
         overflow-y: hidden;
         display: flex;
         flex-direction: column;
-        
     }
 
     #page2 .more-than-a-agency {

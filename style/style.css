@@ -12,8 +12,21 @@
     scroll-behavior: smooth;
 }
 
+html body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+}
+
 #page1 {
     min-height: 1080px;
+    max-width: 100vw;
     background-image: url(/images/mulher-bg.png);
     background-repeat: no-repeat;
     background-position: center;
