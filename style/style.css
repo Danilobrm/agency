@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: KisbaNovaHeadline-Regular;
+    font-family: KisbaNovaHeadline-Regular, sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -219,7 +219,7 @@ p {
     height: 70px;
 }
 
-.about-our-work h1, p{
+.about-our-work p{
     margin-left: 41.5px;
 }
 
