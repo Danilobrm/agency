@@ -8,20 +8,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: KisbaNovaHeadline-Regular, sans-serif;
-    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 html body {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
 }
 
 body {
-    width: fit-content;
-    height: fit-content;
+    max-width: 1920px;
+    height: 100%;
+    background-color: white;
 }
+
+/* page1 start */
 
 #page1 {
     min-height: 1080px;
@@ -31,12 +34,11 @@ body {
     background-position: center;
 }
 
-header{
+header{ 
     z-index: 1;
     position: fixed;
-    margin: 0 auto;
     max-width: 1704px;
-    width: 90%;
+    min-width: 100%;
     height: 105px;
     display: flex;
     justify-content: space-between;
@@ -60,7 +62,8 @@ header{
     z-index: 2;
 }
 
-.menu {
+.menu { 
+    padding: 30px;
     margin: auto 0;
     width: 500px;
     display: flex;
@@ -152,42 +155,46 @@ header{
 
 
 
+
+
+
 #page2 {
-    width: 1500px;
-    margin: 86px auto 46px auto;
-    height: fit-content;
-    overflow-y: hidden;
+    margin: 50px auto;
+    overflow: hidden;
 }
 
 #page2 main { 
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    height: fit-content;
+    max-width: 80%;
+    min-width: 30%;
+    min-height: 100%;
     
 }
 
 .about-our-work {
-    width: 781.5px;
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    min-width: 50%;
+    max-height: fit-content;
 }
 
 .more-than-a-agency {
     display: flex;
     flex-direction: column;
-    width: 781.5px;
-}
-
-.more-than-a-agency p {
-    margin: 0;
+    max-width: 80%;
+    min-width: 50%;
+    max-height: fit-content;
 }
 
 img {
-    height: 767px;
-    width: 541px;
+    max-height: 100%;
+    max-width: 70%;
+    margin: 40px auto;
     transform: scale(1);
     transition: 0.3s ease-in-out;
+    z-index: 0;
 }
 
 #page2 img:hover {
@@ -195,41 +202,29 @@ img {
     transition: 0.3s ease-in-out;
 }
 
-.woman2 { 
-    margin: 40px 41.5px 0 173px;
-}
-
-.woman3 {
-    margin: 222px 0 40px 41.5px;
-}
-
-p {
+p { 
     font-size: 24px;
     font-family: Jost;
     font-weight: 400;
-    width: 622px;
+    max-width: 100%;
+    margin: 0;
     text-align: justify;
     line-height: auto;
-    height: 175px;
+    height: fit-content;
 }
 
 #page2 h1 {
     font-weight: 500;
-    font-size: 48px;  
-    height: 70px;
+    font-size: min(max(10px, 4vw), 40px);
+    max-width: 100%;
 }
 
-.about-our-work p{
-    margin-left: 41.5px;
-}
 
-.more-than-a-agency h1 {
-    margin-top: 107px;
-}
+
+
 
 #page3 { 
     width: 100%;
-    background-color: black;
 }
 
 #page3 h1 {
@@ -249,9 +244,11 @@ p {
 }
 
 #page3 main { 
-    margin: 97px auto;
-    width: 1430px;
-    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    min-width: 30%;
+    height: fit-content;
 }
 
 #page3 aside { 

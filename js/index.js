@@ -5,7 +5,7 @@ const page1 = document.querySelector('.principal')
 const itemMenu = document.querySelectorAll('a.item')
 const contact = document.querySelector('.contact')
 const header = document.querySelector('header')
-const body = document.querySelector('body a')
+const body = document.querySelector('header')
 
 
 
@@ -24,7 +24,9 @@ hamburguer.addEventListener("click", () => {
     } 
 })
 
-contact.addEventListener("click", ()=> {buttonContact.classList.toggle("active")})
+for(let i of itemMenu){
+    i.addEventListener("click", ()=> {buttonContact.classList.toggle("active")})
+}
 
 //executa a função para o hamburguer começar branco
 changeWhite() 
