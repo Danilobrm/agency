@@ -97,18 +97,14 @@ header{
     transition: 0.3s ease-in-out;
 }
 
-.principal {
+#principal {
     display: flex;
-    width: 251px;
-    margin: 0 auto;
-}
-
-#titlePage{ border: 1px solid red;
-    width: 808px;
+    flex-direction: column;
+    width: max-content;
     position: absolute;
+    top: 340px;
     left: 50%;
-    transform: translateX(-50%);
-    top: 190px;
+    transform: translate(-50%, -50%);
 }
 
 .title {
@@ -116,7 +112,6 @@ header{
     font-weight: 500;
     color: white;
     text-align: center;
-
 }
 
 .title2{
@@ -127,7 +122,7 @@ header{
 
 }
 
-.contact-us { border: 1px solid red;
+.contact-us {
     box-sizing: content-box;
     color: black;
     text-align: center;
@@ -136,12 +131,10 @@ header{
     font-weight: 500;
     border-radius: 10px;
     width: 251px;
-    margin: 100px auto;
     padding: 10px 25px;
     transform: scale(1);
     border: none;
-    position: absolute;
-    margin: 500px auto;
+    margin: 80px auto 0 auto;
 }
 
 .contact-us:hover{

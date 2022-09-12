@@ -107,11 +107,10 @@
         position: relative;
     }
 
-
-    #page1 #titlePage{ 
-        position: absolute;
-        top: 30%;
-        transition: 0.3s ease-in-out;
+    #principal {
+        display: flex;
+        flex-direction: column;
+        height: 390px;
         width: 100%;
     }
 
@@ -313,7 +312,7 @@
 @media(min-width:800px){
 
 
-    #titlePage{
+    .titlePage{
         transition: 0.3s ease-in-out;
     }
 
@@ -342,12 +341,10 @@
     font-weight: 500;
     border-radius: 10px;
     width: 251px;
-    margin: 100px auto;
     padding: 10px 25px;
     transform: scale(1);
     border: none;
-    position: absolute;
-    margin: 500px auto;
+    margin: 80px auto 0 auto;
     }
     
 }

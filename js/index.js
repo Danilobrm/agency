@@ -1,11 +1,11 @@
 const hamburguer = document.querySelector(".hamburguer")
 const menu = document.querySelector(".menu")
 const bar = document.querySelectorAll('.bar')
-const page1 = document.querySelector('.principal')
+const page1 = document.querySelector('#principal')
 const itemMenu = document.querySelectorAll('a.item')
 const contact = document.querySelector('.contact')
 const header = document.querySelector('header')
-const page1call = document.getElementById('#titlePage')
+const body = document.querySelector('body')
 
 
 //ativa hamburguer, ativa menu e ative o desaparecimento do botao contato
@@ -59,13 +59,8 @@ innerTextMenu(size())
     buttonContact.href = '#contact'
     //if the window size is less than 800 and menu doesn't have the class active
     //bring the contact circle back
-    if(size() <= 800 && !(menu.className.includes("active"))) {
-        page1.appendChild(buttonContact)
-    }
-    if(size() > 800 ) {
-        page1.appendChild(buttonContact)
-    }
     
+    appendContact(size()).appendChild(buttonContact)
 
 //give the position of the scroll Y
 function scroll() {
@@ -134,6 +129,7 @@ function size() {
         removeMenuBySize(sizeScreen)  
         innerTextMenu(sizeScreen)
         appendLogo(sizeScreen).appendChild(logo)
+        appendContact(sizeScreen).appendChild(buttonContact)
     }
     //auto create logo when open the website
     appendLogo(size()).appendChild(logo)
@@ -229,6 +225,15 @@ function size() {
     function appendLogo(sizeScreen) {
         if(sizeScreen>800){
             return header
+        }
+        if(sizeScreen<=800){
+            return body
+        }
+    }
+
+    function appendContact(sizeScreen) {
+        if(sizeScreen>800){
+            return page1
         }
         if(sizeScreen<=800){
             return body
