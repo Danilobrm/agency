@@ -26,14 +26,14 @@ no projeto existem dois arquivos CSS, um para estilizar o site e outro para apli
 foi definido que em 800px no site, o menu trocaria do normal para menu hambúguer.
 após aplicar o css e deixar pronto para ser exibido em qualquer dispositivo, é hora da linguagem de programação. JavaScript foi usado para ser aplicado algumas funcionalidades e funcionar considerando coisas como tamanho da página ou posição do scroll.<br>
 
-responsivo> ambas versões<br>
+<strong>AMBAS VERSÕES</strong><br>
 se o site for aberto tanto para celular quanto computador, será executada suas devidas funções para manter todos os elementos adicionados com DOM funcionando ou funcionalidades que deveriam funcionar com o redimensionamento.
 
-responsivo><strong>versão de computador</strong><br>
+<strong>VERSÃO DE COMPUTADOR</strong><br>
 primeiro-> funcionalidade do menu.<br>
 quando o menu chegar em uma posição da tela, o comportamento padrão é não ser visto, pois a cor dele é a mesma de alguns elementos que ele passaria por cima. foi criada uma função que considera a posição da página e adiciona uma cor de fundo ao menu, para que ele não se misture com elementos da página.
 
-responsivo><strong>versão de celular</strong><br>
+<strong>VERSÃO DE CELULAR</strong><br>
 primeiro-> funcionalidade do menu hambúrguer.<br>
 função que transforma o elemento com texto do menu em apenas ícones, para uma visualização mais limpa. quanto a funcionalidade, evento de clique para abrir o menu e deixar fixo na tela. quando o menu hambúrguer chegar em uma posição da tela, o comportamento padrão é não ser visto, pois a cor dele é a mesma do background da página. foi criada uma função que considera a posição da página e a cor do menu hambúrguer muda e cada condição de uso, para que ele sempre possa ser visto na tela.
 
