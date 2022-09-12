@@ -2,7 +2,10 @@
 <h1 align="center"> Creative Agency </h1>
 
 Creative Agency é um projeto pessoal de um site para modelos, ele conta com 3 páginas: Início, Sobre nós e Contato.
-A idéia inicial é fazer um site simples onde apresenta de forma rápida o objetivo do site e o usuário já consiga entrar em contato diretamente.
+A idéia inicial é fazer um site simples onde apresenta de forma rápida o objetivo do site e o usuário já consiga entrar em contato diretamente.<br>
+
+você pode acessar o site pelo link: https://agency-danilobrm.vercel.app/#home <br>
+(o projeto pode conter erros de funcionalidade ou design, mas que com frequeência são corrigidos ou melhorados.)
 
 primeiro passo: 
 DESIGN
