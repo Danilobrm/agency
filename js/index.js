@@ -5,8 +5,7 @@ const page1 = document.querySelector('.principal')
 const itemMenu = document.querySelectorAll('a.item')
 const contact = document.querySelector('.contact')
 const header = document.querySelector('header')
-const body = document.querySelector('header')
-
+const page1call = document.getElementById('#titlePage')
 
 
 //ativa hamburguer, ativa menu e ative o desaparecimento do botao contato

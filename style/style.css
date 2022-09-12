@@ -103,7 +103,7 @@ header{
     margin: 0 auto;
 }
 
-#titlePage{
+#titlePage{ border: 1px solid red;
     width: 808px;
     position: absolute;
     left: 50%;
@@ -127,7 +127,7 @@ header{
 
 }
 
-.contact-us {
+.contact-us { border: 1px solid red;
     box-sizing: content-box;
     color: black;
     text-align: center;

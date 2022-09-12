@@ -129,7 +129,7 @@
         transition: 0.3s ease-in-out;
     }
 
-    body .contact-ball {
+    .contact-ball {
         width: 100px;
         height: 100px;
         background-color: white;
@@ -314,7 +314,6 @@
 
 
     #titlePage{
-        width: 808px;
         transition: 0.3s ease-in-out;
     }
 
@@ -334,21 +333,21 @@
         text-align: center;
     }
 
-    .contact-us {
+    .contact-us { 
         box-sizing: content-box;
-        color: black;
-        text-align: center;
-        background-color: white;
-        font-size: 40px;
-        font-weight: 500;
-        border-radius: 10px;
-        width: 251px;
-        margin: 100px auto;
-        padding: 10px 25px;
-        transform: scale(1);
-        border: none;
-        position: absolute;
-        margin: 500px auto;  
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 251px;
+    margin: 100px auto;
+    padding: 10px 25px;
+    transform: scale(1);
+    border: none;
+    position: absolute;
+    margin: 500px auto;
     }
     
 }
