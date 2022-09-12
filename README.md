@@ -13,4 +13,13 @@ o design do site foi feito utilizando PhotoShop e figma e como modelo para layou
 
 </div>
 
+após o layout base pronto, é hora da linguagem de marcação, comecei criando seções para cada área do site, onde seria útil para a navegação no futuro.
+seção página 1 -> Início
+seção página 2 -> Sobre nós
+seção página 3 -> Contato
+
+dentro de cada seção era recebido seus devidos assets e textos.
+
+após terminar de adicionar os elementos no site, é hora da linguagem de estilização (CSS3).<br>
+no projeto existem dois arquivos CSS, um para estilizar o site e outro para aplicar a responsividade.
 
