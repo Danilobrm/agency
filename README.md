@@ -39,3 +39,7 @@ função que transforma o elemento com texto do menu em apenas ícones, para uma
 
 
 
+<strong>#Início</strong><br>
+nesssa página, quando diminuida, o elemento CONTACT US, que está em texto, se transforma em um círculo e fica fixado na página e o texto muda para um ícone de telefone, quando o menu hambúrguer é aberto, por possuir a mesma opção, o círculo desaparece e só aparece quando o menú é fechado novamente.
+
+
